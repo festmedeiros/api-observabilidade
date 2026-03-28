@@ -1,0 +1,19 @@
+{
+  "name": "api-observabilidade",
+  "version": "0.0.0",
+  "description": "API Node.js simples com observabilidade e Better Stack",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "@logtail/node": "^0.4.21",
+    "@logtail/winston": "^0.4.21",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.14.2"
+  }
+}
